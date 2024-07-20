@@ -1,0 +1,64 @@
+.container{
+    justify-content: right;
+    display: flex;
+    gap: 30px;
+    margin: 30px;
+    
+    
+    
+    
+}
+
+
+.container1{
+    display: flex;
+    gap: 30px;
+    justify-content: right;
+    margin: 30px;
+    background-image: url(SMIT.jpg);
+    background-size:contain ;
+    
+}
+.container2{
+    
+    display: flex;
+    gap: 30px;
+    justify-content: right;
+    margin: 30px;
+    
+}
+
+h1{
+    background-color: lightgreen;
+    text-align: center;
+}
+h1:hover,
+.container:hover,
+.container1:hover,
+.container2:hover,
+
+.image:hover{
+    background-color: rgb(201, 236, 202);
+    box-shadow: 0px 0px 2px #c8db60,inset 0px -20px 1px  #bfe082;
+    border-top: 2px solid #cc0490;
+    border-right: 2px solid #ccf611;
+    border-bottom: 2px solid #d34e0b;
+    border-left: 2px solid #3407b9;
+    font-display: 20px;
+   padding: 15px;
+    margin-top: 50px;
+    pointer-events: 30px;
+    
+}
+.creat{
+   
+    background-size: 100px;
+    align-items: center;
+    color: #f66218;
+
+}
+.container,
+.container1,
+.container2{
+      border: 2px solid;
+}
